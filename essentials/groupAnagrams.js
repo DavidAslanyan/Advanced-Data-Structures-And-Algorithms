@@ -14,3 +14,5 @@ const groupAnagrams = function(strs) {
   return Array.from(map.values());
 };
 
+// Time O(n * k log k)
+// Space O(n * k)
