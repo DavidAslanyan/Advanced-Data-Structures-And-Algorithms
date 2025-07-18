@@ -7,4 +7,4 @@ function arrayPairSum(nums) {
   }
 
   return sum;
-}
+}  
