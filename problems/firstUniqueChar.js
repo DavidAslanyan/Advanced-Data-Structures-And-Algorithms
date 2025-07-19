@@ -1,6 +1,6 @@
 var firstUniqChar = function(s) {
   let chars = new Map();
-
+  
   for (let i = 0; i < s.length; i++) {
     let el = s[i];
     if (chars.has(el)) {
