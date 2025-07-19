@@ -9,7 +9,7 @@ var firstUniqChar = function(s) {
     } else {
       chars.set(el, 0);
     }
-  }
+  }  
 
   let uniqueChar;
   for (const [key, value] of chars) {
