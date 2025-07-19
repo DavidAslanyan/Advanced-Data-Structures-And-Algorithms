@@ -11,7 +11,7 @@ function isIsomorphic(str1, str2) {
       // Taking ith char from both strings
       char1 = str1.charAt(i);
       char2 = str2.charAt(i);
-
+   
       // If char1 has already been mapped
       if (map.has(char1) == true) {
 
