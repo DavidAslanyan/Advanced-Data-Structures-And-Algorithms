@@ -7,7 +7,7 @@ function isIsomorphic(str1, str2) {
   const set = new Set();
 
   for (let i = 0; i < str1.length; i++) {
-
+  
       // Taking ith char from both strings
       char1 = str1.charAt(i);
       char2 = str2.charAt(i);
