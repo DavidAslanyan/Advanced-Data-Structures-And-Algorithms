@@ -6,5 +6,5 @@ function isPowerOfTwo(n) {
     n = n / 2;
   }
 
-  return true;
+  return true;  
 }
