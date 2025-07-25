@@ -8,7 +8,7 @@ const groupAnagrams = function(strs) {
           map.get(sorted).push(strs[i]);
       } else {
           map.set(sorted, [strs[i]]);
-      }
+      }  
   } 
 
   return Array.from(map.values());
