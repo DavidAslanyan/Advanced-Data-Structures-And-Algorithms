@@ -1,6 +1,6 @@
 const coins = [50, 100, 200];
 const target = 500;
-
+  
 function findCombinations() {
   const result = [];
    
