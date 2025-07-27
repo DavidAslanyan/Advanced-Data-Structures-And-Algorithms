@@ -3,7 +3,7 @@ const target = 500;
 
 function findCombinations() {
   const result = [];
-
+   
   for (let count200 = 0; count200 <= Math.floor(target / 200); count200++) {
     for (let count100 = 0; count100 <= Math.floor((target - 200 * count200) / 100); count100++) {
       for (let count50 = 0; count50 <= Math.floor((target - 200 * count200 - 100 * count100) / 50); count50++) {
