@@ -6,6 +6,6 @@ var twoSum = function(nums, target) {
       if (map.has(target - el)) return [map.get(target - el), i];
       else map.set(el, i);
   }
-
+  
   return [];
 }; 
