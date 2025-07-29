@@ -8,7 +8,7 @@ var majorityElement = function(nums) {
             map.set(num, 1);
         }
     }
-
+  
     for (const item of map) {
         const [key, value] = item;
 
