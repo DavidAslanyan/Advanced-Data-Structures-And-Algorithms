@@ -16,6 +16,6 @@ var majorityElement = function(nums) {
             return key;
         }
     }
-
+ 
     return 1;
 };
