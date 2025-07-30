@@ -30,4 +30,3 @@ function maxNonOverlapSegments(A) {
     return maxCount;
 }
 
-console.log(maxNonOverlapSegments([10, 1, 3, 1, 2, 2, 1, 0, 4]));
