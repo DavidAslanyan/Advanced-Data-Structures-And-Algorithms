@@ -26,7 +26,7 @@ function maxNonOverlapSegments(A) {
         }
         maxCount = Math.max(maxCount, count);
     }
-
+  
     return maxCount;
 }
 
