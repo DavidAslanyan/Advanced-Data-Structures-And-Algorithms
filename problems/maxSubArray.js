@@ -8,7 +8,7 @@ var maxSubArray = function(nums) {
     if (curSum < 0) {
       curSum = 0;
     }
-  }
+  }  
 
   return maxSum;
 }
