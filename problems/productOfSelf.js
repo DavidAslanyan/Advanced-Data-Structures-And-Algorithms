@@ -13,7 +13,7 @@ function productExceptSelf(nums) {
         result[i] *= suffixProduct;
         suffixProduct *= nums[i];
     }
-
+  
     return result;
 }
 
