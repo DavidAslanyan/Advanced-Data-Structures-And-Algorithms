@@ -9,6 +9,6 @@ var maxSubArray = function(nums) {
       curSum = 0;
     }
   }  
-
+  
   return maxSum;
 }
