@@ -9,7 +9,7 @@ var isValid = function(s) {
         "{": "}"
     };
     const stack = [];
-
+  
     for (const char of s) {
         if (map[char]) {
             stack.push(map[char]);
