@@ -9,7 +9,7 @@ const binarySearch = (arr, t) => {
     } else if (arr[mid] < t) {
       left = mid + 1
     } else if (arr[mid] > t) {
-      right = mid - 1;
+      right = mid - 1;  
     }
   }
 
