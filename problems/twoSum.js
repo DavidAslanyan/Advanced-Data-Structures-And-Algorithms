@@ -7,7 +7,7 @@ const twoSum = (arr, target) => {
     if (sum < target) left++;
     else right--;
   }
-
+  
   return false;
 }
 
