@@ -7,7 +7,7 @@ function isPalindromeNumber(x) {
   while (x > 0) {
     let lastDigit = x % 10;
     reversed = reversed * 10 + lastDigit;
-    x = Math.floor(x / 10);
+    x = Math.floor(x / 10);  
   }
 
   return reversed === original
