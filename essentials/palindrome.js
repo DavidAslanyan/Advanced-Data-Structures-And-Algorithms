@@ -9,7 +9,7 @@ const isPalindrome = (arr) => {
     left++;
     right--;
   }
-
+  
   return true;
 }
 
