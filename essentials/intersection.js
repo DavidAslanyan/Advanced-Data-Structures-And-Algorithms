@@ -8,7 +8,7 @@ var intersection = function(nums1, nums2) {
     }
   }
 
-  return [...result];
+  return [...result];  
 };
 
 console.log(intersection([4,9,,5], [9,4,9,8,4]));
