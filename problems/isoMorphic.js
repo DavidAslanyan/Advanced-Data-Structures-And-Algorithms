@@ -3,7 +3,7 @@ function isIsomorphic(str1, str2) {
       return false;
   }
 
-  const map = new Map();
+  const map = new Map();  
   const set = new Set();
 
   for (let i = 0; i < str1.length; i++) {
