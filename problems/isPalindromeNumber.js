@@ -12,5 +12,5 @@ function isPalindromeNumber(x) {
 
   return reversed === original
 }
-
+  
 console.log(isPalindromeNumber(121))
