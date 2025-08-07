@@ -12,4 +12,4 @@ var findPeakElement = function(nums) {
             return mid;
         }
     }
-};
+};   
