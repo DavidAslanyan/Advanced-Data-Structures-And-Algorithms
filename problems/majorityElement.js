@@ -19,4 +19,4 @@ var majorityElement = function(nums) {
  
     return 1;
 };
-  
+    
