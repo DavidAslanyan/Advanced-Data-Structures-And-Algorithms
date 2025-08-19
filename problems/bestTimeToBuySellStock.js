@@ -1,4 +1,4 @@
-var maxProfit = function(prices) {
+  var maxProfit = function(prices) {
     let minPrice = Infinity;
     let maxProfit = 0;
 
