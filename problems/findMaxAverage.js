@@ -1,5 +1,5 @@
 // Fixed Sliding Window Easy
-
+   
 var findMaxAverage = function(nums, k) {
     if (nums.length < k) return 0;
 
