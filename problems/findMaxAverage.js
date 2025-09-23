@@ -1,8 +1,4 @@
-/**
- * @param {number[]} nums
- * @param {number} k
- * @return {number}
- */
+
 var findMaxAverage = function(nums, k) {
     let maxAvg = 0;
     let curSum = 0;
