@@ -1,21 +1,20 @@
-// Fixed Sliding Window Easy
-   
-var findMaxAverage = function(nums, k) {
-    if (nums.length < k) return 0;
 
-    let maxSum = 0;
-    let windowSum = 0;
+var findMaxAverage = function(nums, k) {
+    let maxAvg = 0;
+    let curSum = 0;
 
     for (let i = 0; i < k; i++) {
-        windowSum += nums[i];
+        curSum += nums[i];
     }
 
-    maxSum = windowSum / k;
+    maxAvg = curSum / k;
 
     for (let i = k; i < nums.length; i++) {
-        windowSum = windowSum - nums[i - k] + nums[i];
-        maxSum = Math.max(maxSum, windowSum / k);
+        curSum += nums[i];
+        curSum -= nums[i - k];
+
+        maxAvg = Math.max(maxAvg, curSum / k);
     }
 
-    return maxSum;
+    return maxAvg;
 };
