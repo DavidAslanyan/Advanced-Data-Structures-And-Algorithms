@@ -12,7 +12,7 @@ const binarySearch = (arr, t) => {
       right = mid - 1;  
     }
   }
-
+ 
   return -1;
 }
 
