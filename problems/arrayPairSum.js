@@ -6,5 +6,5 @@ function arrayPairSum(nums) {
     sum += nums[i];
   }  
      
-  return sum;
+  return sum; 
 }  
